@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FD Developments Limited Services - Property Development, Building Construction, Real Estate, Project Management, Interior Design, Spanish Porcelain Tiles, and more.">
+  <meta name="keywords" content="FD Developments, Property Development, Building Construction, Real Estate, Project Management, Interior Design, Spanish Porcelain Tiles, Luxury Finishing, Renovation">
+  <meta name="author" content="FD Developments Limited">
+  <meta property="og:title" content="Our Services | FD Developments Limited">
+  <meta property="og:description" content="Comprehensive real estate and development services from Nigeria's premier property development company.">
+  <meta property="og:type" content="website">
+  <title>Our Services | FD Developments Limited</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23C1121F'/><text x='50' y='68' font-size='50' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'>FD</text></svg>">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="loader" id="loader" aria-hidden="true">
+    <img src="img/LOGO.png" class="loader-logo" alt="FD Developments Limited" width="150" height="150">
+    <div class="loader-bar"></div>
+    <div class="loader-text">Building Tomorrow's Landmarks</div>
+  </div>
+
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <div class="page-transition" id="pageTransition">
+    <img src="img/LOGO.png" class="page-transition-logo" alt="" aria-hidden="true" width="140" height="140">
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo" aria-label="FD Developments Home">
+        <img src="img/LOGO.png" class="logo-img" alt="FD Developments Limited" width="56" height="56">
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li class="has-megamenu">
+          <a href="services.html" class="nav-link active" id="servicesLink">Services</a>
+          <div class="mega-menu" id="megaMenu">
+            <div class="container">
+              <div class="mega-menu-grid">
+                <div class="mega-menu-links">
+                  <div class="mega-menu-column">
+                    <h4>Development</h4>
+                    <ul>
+                      <li><a href="services.html#property-development">Property Development</a></li>
+                      <li><a href="services.html#building-construction">Building Construction</a></li>
+                      <li><a href="services.html#real-estate">Real Estate Development</a></li>
+                      <li><a href="services.html#project-management">Project Management</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h4>Design & Finishing</h4>
+                    <ul>
+                      <li><a href="services.html#interior-design">Interior Design</a></li>
+                      <li><a href="services.html#luxury-finishing">Luxury Finishing</a></li>
+                      <li><a href="services.html#porcelain-tiles">Spanish Porcelain Tiles</a></li>
+                      <li><a href="services.html#renovation">Renovation</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h4>Property Types</h4>
+                    <ul>
+                      <li><a href="projects.html#residential">Residential Projects</a></li>
+                      <li><a href="projects.html#commercial">Commercial Projects</a></li>
+                      <li><a href="projects.html#luxury-homes">Luxury Homes</a></li>
+                      <li><a href="projects.html#apartments">Apartments</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mega-menu-featured">
+                  <div>
+                    <h3>Featured Development</h3>
+                    <p>Discover our latest luxury residential project in Victoria Island, Lagos.</p>
+                  </div>
+                  <a href="projects.html" class="btn btn-primary btn-sm">View Projects</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="nav-action-btn theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button class="nav-action-btn" id="searchToggle" aria-label="Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Get Started</a>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-menu-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-footer">
+      <div class="mobile-menu-social">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V9h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+      </div>
+      <p class="mobile-menu-copy">© 2026 FD Developments Limited</p>
+    </div>
+  </div>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay" id="searchOverlay">
+    <button class="search-close" id="searchClose" aria-label="Close search">×</button>
+    <div class="search-overlay-inner">
+      <form class="search-form" role="search">
+        <input type="search" placeholder="Search projects, services..." aria-label="Search">
+        <button type="submit" aria-label="Submit search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+      </form>
+      <p class="search-hint">Press ESC to close</p>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Page Header -->
+    <header class="page-header" style="background-image: url('img/victoria-island-lagos.jpg');">
+      <div class="container">
+        <div class="page-header-content" data-animate="fade-up">
+          <h1>Our <span>Services</span></h1>
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <span class="separator">/</span>
+            <span class="current">Services</span>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services Grid -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header center" data-animate="fade-up">
+          <div class="section-eyebrow">What We Offer</div>
+          <h2 class="section-title">Comprehensive <span class="text-red">Solutions</span></h2>
+          <p class="section-subtitle">From concept to completion, we deliver premium real estate and development services.</p>
+        </div>
+        <div class="services-grid">
+          <!-- Property Development -->
+          <div class="service-card" id="property-development" data-animate="fade-up" data-delay="1">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/></svg>
+            </div>
+            <h3>Property Development</h3>
+            <p>End-to-end development of premium residential and commercial properties, from land acquisition to final handover.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Building Construction -->
+          <div class="service-card" id="building-construction" data-animate="fade-up" data-delay="2">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20h20"/><path d="M4 20V8l8-4 8 4v12"/><path d="M9 20v-4h6v4"/></svg>
+            </div>
+            <h3>Building Construction</h3>
+            <p>Expert construction services with premium materials, skilled craftsmen, and rigorous quality control.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Real Estate Development -->
+          <div class="service-card" id="real-estate" data-animate="fade-up" data-delay="3">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3>Real Estate Development</h3>
+            <p>Strategic land acquisition, planning, and development of high-value real estate projects across Nigeria.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Project Management -->
+          <div class="service-card" id="project-management" data-animate="fade-up" data-delay="4">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3>Project Management</h3>
+            <p>Professional project management ensuring on-time, on-budget delivery with transparent reporting.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Property Consultation -->
+          <div class="service-card" id="property-consultation" data-animate="fade-up" data-delay="5">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <h3>Property Consultation</h3>
+            <p>Expert advice on property investment, acquisition, and portfolio management for maximum returns.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Interior Design -->
+          <div class="service-card" id="interior-design" data-animate="fade-up" data-delay="6">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Interior Design</h3>
+            <p>Luxury interior design that transforms spaces into extraordinary living and working experiences.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Facility Management -->
+          <div class="service-card" id="facility-management" data-animate="fade-up" data-delay="7">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/><path d="M9 18v.01"/></svg>
+            </div>
+            <h3>Facility Management</h3>
+            <p>Comprehensive property and facility management services that maintain and enhance asset value.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Spanish Porcelain Tiles -->
+          <div class="service-card" id="porcelain-tiles" data-animate="fade-up" data-delay="8">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            </div>
+            <h3>Spanish Porcelain Tiles</h3>
+            <p>Premium Spanish porcelain tiles for floors, walls, and luxury finishes. Authentic, durable, and elegant.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Luxury Finishing -->
+          <div class="service-card" id="luxury-finishing" data-animate="fade-up" data-delay="9">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Luxury Finishing</h3>
+            <p>Premium finishing touches that elevate properties to world-class standards of luxury and sophistication.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Residential Projects -->
+          <div class="service-card" id="residential" data-animate="fade-up" data-delay="10">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V11z"/><path d="M9 22V12h6v10"/></svg>
+            </div>
+            <h3>Residential Projects</h3>
+            <p>Beautifully designed homes and residential estates that combine comfort, style, and functionality.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Commercial Projects -->
+          <div class="service-card" id="commercial" data-animate="fade-up" data-delay="11">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8"/><path d="M8 10h8"/><path d="M8 14h8"/><path d="M8 18h4"/></svg>
+            </div>
+            <h3>Commercial Projects</h3>
+            <p>Premium commercial developments including office towers, retail spaces, and mixed-use properties.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+          <!-- Renovation -->
+          <div class="service-card" id="renovation" data-animate="fade-up" data-delay="12">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/><path d="M9 18v.01"/></svg>
+            </div>
+            <h3>Renovation</h3>
+            <p>Transform existing properties with expert renovation services that modernize and add significant value.</p>
+            <a href="contact.html" class="service-card-link">Enquire Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section section-alt" id="process">
+      <div class="container">
+        <div class="section-header center" data-animate="fade-up">
+          <div class="section-eyebrow">How We Work</div>
+          <h2 class="section-title">Our <span class="text-red">Process</span></h2>
+          <p class="section-subtitle">A proven methodology that ensures successful project delivery every time.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process-step" data-animate="fade-up" data-delay="1">
+            <div class="process-step-number">01</div>
+            <h3>Consultation</h3>
+            <p>We understand your vision, requirements, and budget through detailed consultation.</p>
+          </div>
+          <div class="process-step" data-animate="fade-up" data-delay="2">
+            <div class="process-step-number">02</div>
+            <h3>Design & Planning</h3>
+            <p>Our architects create innovative designs and comprehensive project plans.</p>
+          </div>
+          <div class="process-step" data-animate="fade-up" data-delay="3">
+            <div class="process-step-number">03</div>
+            <h3>Construction</h3>
+            <p>Expert execution with premium materials and rigorous quality control.</p>
+          </div>
+          <div class="process-step" data-animate="fade-up" data-delay="4">
+            <div class="process-step-number">04</div>
+            <h3>Handover</h3>
+            <p>We deliver your completed project with full documentation and support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header center" data-animate="fade-up">
+          <div class="section-eyebrow">FAQ</div>
+          <h2 class="section-title">Frequently Asked <span class="text-red">Questions</span></h2>
+        </div>
+        <div class="faq-list" data-animate="fade-up">
+          <div class="faq-item active">
+            <button class="faq-question" aria-expanded="true">
+              What types of properties does FD Developments build?
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-answer" style="max-height: 200px;">
+              <div class="faq-answer-inner">
+                We develop luxury residential homes, commercial properties, apartments, and mixed-use developments across Nigeria. Our portfolio includes everything from premium family homes to corporate office towers.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Do you supply Spanish porcelain tiles to external clients?
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Yes, we supply high-quality Spanish porcelain tiles to both our project clients and external customers. We offer a wide range of premium tiles for floors, walls, and luxury finishes.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How long does a typical project take?
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Project timelines vary based on scope and complexity. A typical residential project takes 6-12 months, while larger commercial developments may take 18-24 months. We provide detailed timelines during consultation.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Can FD Developments manage my property after completion?
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Absolutely. We offer comprehensive facility management services including maintenance, security coordination, and property management to ensure your investment is well-maintained and performing optimally.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              What areas do you serve in Nigeria?
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                We primarily operate in Lagos and Abuja, but we take on projects across Nigeria. Our team has delivered successful developments in major cities including Port Harcourt, Ibadan, and Enugu.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="cta">
+      <div class="container">
+        <div class="cta-content" data-animate="fade-up">
+          <h2>Need a Custom <span style="color:#fff">Solution?</span></h2>
+          <p>Contact our team today to discuss your project requirements and get a free consultation.</p>
+          <div class="cta-actions">
+            <a href="contact.html" class="btn btn-white btn-lg btn-shine">Get a Free Quote <span class="btn-icon">→</span></a>
+            <a href="tel:+2347062518433" class="btn btn-outline btn-lg">Call +234 706 251 8433</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="img/LOGO.png" class="logo-img" alt="FD Developments Limited" width="56" height="56">
+          </a>
+          <p>Premium Nigerian real estate and property development company delivering world-class residential and commercial spaces.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V9h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Property Development</a></li>
+            <li><a href="services.html">Building Construction</a></li>
+            <li><a href="services.html">Interior Design</a></li>
+            <li><a href="services.html">Project Management</a></li>
+            <li><a href="services.html">Spanish Porcelain Tiles</a></li>
+            <li><a href="services.html">Renovation</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Subscribe for the latest developments, projects, and exclusive offers.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email address" aria-label="Email address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 FD Developments Limited. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <a href="https://wa.me/2347062518433" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Newsletter Popup -->
+  <div class="newsletter-popup" id="newsletterPopup">
+    <button class="newsletter-popup-close" id="newsletterPopupClose" aria-label="Close newsletter popup">×</button>
+    <h4>Stay Updated</h4>
+    <p>Get the latest property developments and exclusive offers.</p>
+    <form class="newsletter-form" id="popupNewsletterForm">
+      <input type="email" placeholder="Your email" aria-label="Email address" required>
+      <button type="submit">Join</button>
+    </form>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
